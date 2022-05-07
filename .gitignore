@@ -1,0 +1,5 @@
+dist
+logs/
+release
+.idea
+node_modules/
