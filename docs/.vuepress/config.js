@@ -5,7 +5,8 @@ module.exports = {
             { text: 'Basic', link: '/basic/html/question' },
             { text: 'UI', link: '/UI/elementui/main' },
             { text: 'Server', link: '/server/node/main' },
-            { text: 'Framework', link: '/framework/vue/ssr' }
+            { text: 'Framework', link: '/framework/vue/ssr' },
+            { text: 'Else', link: '/else/monorepo/main' }
         ],
         sidebar: {
             '/basic/html/': [
@@ -106,6 +107,17 @@ module.exports = {
                     ]
                 },
             ],
+            '/else/monorepo/': [
+                { 
+                    title: 'monorepo',
+                    children: [
+                        { 
+                            title: '概念', 
+                            path: 'main' 
+                        },
+                    ]
+                },
+            ]
         }
     }
 }
