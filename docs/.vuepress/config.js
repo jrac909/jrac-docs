@@ -1,4 +1,11 @@
 module.exports = {
+    head: [
+        [
+            'link',
+            { rel: 'icon', href: 'imgs/home_home.png' }
+        ]
+    ],
+    title: 'Jrac\'s 前端技术文档',
     themeConfig: {
         nav: [
             { text: '概述', link: '/' },
