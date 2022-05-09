@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/blog/',
     head: [
         [
             'link',
