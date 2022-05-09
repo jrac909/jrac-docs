@@ -102,6 +102,10 @@ module.exports = {
                             title: 'SSR 服务端渲染', 
                             path: '/framework/vue/ssr' 
                         },
+                        { 
+                            title: 'VuePress 使用教程', 
+                            path: '/framework/vue/vuepress' 
+                        },
                     ]
                 },
                 { 
