@@ -12,7 +12,7 @@ module.exports = {
             { text: '概述', link: '/' },
             { text: 'Basic', link: '/basic/html/question' },
             { text: 'UI', link: '/UI/elementui/main' },
-            { text: 'Server', link: '/server/node/main' },
+            { text: 'Server', link: '/server/node/express' },
             { text: 'Framework', link: '/framework/vue/ssr' },
             { text: 'Else', link: '/else/monorepo/main' }
         ],
@@ -77,8 +77,8 @@ module.exports = {
                     collapsable: true, 
                     children: [
                         { 
-                            title: '常见问题', 
-                            path: '/server/node/main' 
+                            title: 'Express', 
+                            path: '/server/node/express' 
                         },
                     ]
                 },
