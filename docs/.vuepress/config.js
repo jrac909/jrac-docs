@@ -9,10 +9,10 @@ module.exports = {
     title: 'Jrac\'s 前端技术文档',
     themeConfig: {
         nav: [
-            { text: '概述', link: '/' },
-            { text: 'Basic', link: '/basic/html/question' },
-            { text: 'UI', link: '/UI/elementui/main' },
-            { text: 'Server', link: '/server/node/express' },
+            // { text: '概述', link: '/' },
+            // { text: 'Basic', link: '/basic/html/question' },
+            // { text: 'UI', link: '/UI/elementui/main' },
+            { text: 'Server', link: '/server/node/node_api' },
             { text: 'Framework', link: '/framework/vue/ssr' },
             { text: 'Else', link: '/else/monorepo/main' }
         ],
@@ -77,21 +77,25 @@ module.exports = {
                     collapsable: true, 
                     children: [
                         { 
+                            title: 'Node Api', 
+                            path: '/server/node/node_api' 
+                        },
+                        { 
                             title: 'Express', 
                             path: '/server/node/express' 
                         },
                     ]
                 },
-                { 
-                    title: 'Webpack', 
-                    collapsable: true, 
-                    children: [
-                        { 
-                            title: '常见问题', 
-                            path: '/server/webpack/main' 
-                        },
-                    ]
-                },
+                // { 
+                //     title: 'Webpack', 
+                //     collapsable: true, 
+                //     children: [
+                //         { 
+                //             title: '常见问题', 
+                //             path: '/server/webpack/main' 
+                //         },
+                //     ]
+                // },
             ],
             '/framework/vue/': [
                 { 
@@ -108,16 +112,16 @@ module.exports = {
                         },
                     ]
                 },
-                { 
-                    title: 'React', 
-                    collapsable: true, 
-                    children: [
-                        { 
-                            title: '常见问题', 
-                            path: '/framework/react/main' 
-                        },
-                    ]
-                },
+                // { 
+                //     title: 'React', 
+                //     collapsable: true, 
+                //     children: [
+                //         { 
+                //             title: '常见问题', 
+                //             path: '/framework/react/main' 
+                //         },
+                //     ]
+                // },
             ],
             '/else/monorepo/': [
                 { 

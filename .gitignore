@@ -3,3 +3,5 @@ logs/
 release
 .idea
 node_modules/
+docs/framework/vue/ssr-real.md
+docs/framework/vue/local-rewrite-env.md

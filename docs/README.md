@@ -2,7 +2,7 @@
 home: true
 heroImage: /imgs/home_home.png
 heroText: Jrac's 前端技术文档
-tagline: 1. 人一定会死 2. 程序一定有 Bug
+tagline: 我好闲啊 好闲的我
 features:
 - title: 面试题集
   details: 汇总常见前端面试题，深挖、理解每一道面试题。
