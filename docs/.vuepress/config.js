@@ -10,41 +10,41 @@ module.exports = {
     themeConfig: {
         nav: [
             // { text: '概述', link: '/' },
-            // { text: 'Basic', link: '/basic/html/question' },
+            { text: 'Basic', link: '/basic/js/modularity.md' },
             // { text: 'UI', link: '/UI/elementui/main' },
             { text: 'Server', link: '/server/node/node_api' },
             { text: 'Framework', link: '/framework/vue/ssr' },
             { text: 'Else', link: '/else/monorepo/main' }
         ],
         sidebar: {
-            '/basic/html/': [
-                { 
-                    title: 'HTML', 
-                    collapsable: true, 
-                    children: [
-                        { 
-                            title: '常见问题', 
-                            path: '/basic/html/question' 
-                        },
-                    ]
-                },
-                { 
-                    title: 'CSS', 
-                    collapsable: true, 
-                    children: [
-                        { 
-                            title: '常见问题', 
-                            path: '/basic/css/question' 
-                        },
-                    ]
-                },
+            '/basic/': [
+                // { 
+                //     title: 'HTML', 
+                //     collapsable: true, 
+                //     children: [
+                //         { 
+                //             title: '常见问题', 
+                //             path: '/basic/html/question' 
+                //         },
+                //     ]
+                // },
+                // { 
+                //     title: 'CSS', 
+                //     collapsable: true, 
+                //     children: [
+                //         { 
+                //             title: '常见问题', 
+                //             path: '/basic/css/question' 
+                //         },
+                //     ]
+                // },
                 { 
                     title: 'JS', 
                     collapsable: true, 
                     children: [
                         { 
-                            title: '常见问题', 
-                            path: '/basic/css/question' 
+                            title: 'JS 模块化', 
+                            path: 'js/modularity.md' 
                         },
                     ]
                 }
@@ -71,7 +71,7 @@ module.exports = {
                     ]
                 },
             ],
-            '/server/node/': [
+            '/server/': [
                 { 
                     title: 'Node', 
                     collapsable: true, 
@@ -86,16 +86,16 @@ module.exports = {
                         },
                     ]
                 },
-                // { 
-                //     title: 'Webpack', 
-                //     collapsable: true, 
-                //     children: [
-                //         { 
-                //             title: '常见问题', 
-                //             path: '/server/webpack/main' 
-                //         },
-                //     ]
-                // },
+                { 
+                    title: 'Linux', 
+                    collapsable: true, 
+                    children: [
+                        { 
+                            title: 'Linux 常用指令', 
+                            path: '/server/linux/command' 
+                        },
+                    ]
+                },
             ],
             '/framework/vue/': [
                 { 
@@ -123,17 +123,21 @@ module.exports = {
                 //     ]
                 // },
             ],
-            '/else/monorepo/': [
+            '/else/': [
                 { 
                     title: 'monorepo',
                     children: [
                         { 
                             title: '概念', 
-                            path: 'main' 
+                            path: 'monorepo/main' 
                         },
                     ]
                 },
-            ]
+                { 
+                    title: 'V8',
+                    path: 'v8'
+                },
+            ],
         }
     }
 }
