@@ -84,6 +84,10 @@ module.exports = {
                             title: 'Express', 
                             path: '/server/node/express' 
                         },
+                        { 
+                            title: 'Yarn', 
+                            path: '/server/node/yarn' 
+                        },
                     ]
                 },
                 { 
@@ -93,6 +97,16 @@ module.exports = {
                         { 
                             title: 'Linux 常用指令', 
                             path: '/server/linux/command' 
+                        },
+                    ]
+                },
+                { 
+                    title: 'Pm2', 
+                    collapsable: true, 
+                    children: [
+                        { 
+                            title: 'pm2 快速开始', 
+                            path: '/server/pm2/quickStart' 
                         },
                     ]
                 },
