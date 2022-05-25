@@ -21,3 +21,10 @@ path.resolve('wwwroot', 'static_files/png/', '../gif/image.gif');
  * 3. 这时候还没有到根目录，相当于在前面补充一个根目录，得到最终结果 /home/myself/node/wwwroot/static_files/gif/image.gif 
  */
 ```
+
+## path.dirname([path])
+- 找 path 所在的目录, 比如 path.dirname('/foo/bar/baz/quux') 为 /foo/bar/baz
+- 如果不传参数, 表示 node xx.js 运行的文件所在的目录, 其值等于 __dirname 的值
+
+## server.close([callback])
+使服务器停止接收新的连接。

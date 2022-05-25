@@ -110,6 +110,16 @@ module.exports = {
                         },
                     ]
                 },
+                { 
+                    title: 'Script', 
+                    collapsable: true, 
+                    children: [
+                        { 
+                            title: 'shell',
+                            path: '/server/script/shell.md' 
+                        },
+                    ]
+                },
             ],
             '/framework/vue/': [
                 { 
