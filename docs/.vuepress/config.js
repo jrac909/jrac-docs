@@ -120,6 +120,16 @@ module.exports = {
                         },
                     ]
                 },
+                { 
+                    title: 'Nginx', 
+                    collapsable: true, 
+                    children: [
+                        { 
+                            title: 'Nginx 常见问题',
+                            path: '/server/nginx/question.md' 
+                        },
+                    ]
+                },
             ],
             '/framework/vue/': [
                 { 
