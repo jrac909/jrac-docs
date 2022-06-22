@@ -12,7 +12,7 @@ module.exports = {
             // { text: '概述', link: '/' },
             { text: 'Basic', link: '/basic/js/modularity.md' },
             // { text: 'UI', link: '/UI/elementui/main' },
-            { text: 'Server', link: '/server/node/node_api' },
+            { text: 'Server', link: '/server/node/node_basic' },
             { text: 'Framework', link: '/framework/vue/ssr' },
             { text: 'Else', link: '/else/monorepo/main' }
         ],
@@ -76,6 +76,10 @@ module.exports = {
                     title: 'Node', 
                     collapsable: true, 
                     children: [
+                        {
+                            title: 'Node Basic',
+                            path: '/server/node/node_basic'
+                        },
                         { 
                             title: 'Node Api', 
                             path: '/server/node/node_api' 
