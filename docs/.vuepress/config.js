@@ -77,7 +77,7 @@ module.exports = {
                     collapsable: true, 
                     children: [
                         {
-                            title: 'Node Basic',
+                            title: 'Node 问题汇总',
                             path: '/server/node/node_basic'
                         },
                         { 
@@ -135,7 +135,7 @@ module.exports = {
                     ]
                 },
             ],
-            '/framework/vue/': [
+            '/framework/': [
                 { 
                     title: 'Vue', 
                     collapsable: true, 
@@ -150,16 +150,72 @@ module.exports = {
                         },
                     ]
                 },
-                // { 
-                //     title: 'React', 
-                //     collapsable: true, 
-                //     children: [
-                //         { 
-                //             title: '常见问题', 
-                //             path: '/framework/react/main' 
-                //         },
-                //     ]
-                // },
+                { 
+                    title: 'React', 
+                    collapsable: true, 
+                    children: [
+                        { 
+                            title: '基础教程', 
+                            path: '/framework/react/basic' 
+                        },
+                        { 
+                            title: 'JSX 基础知识拓展', 
+                            path: '/framework/react/jsx' 
+                        },
+                        { 
+                            title: '组件与模块知识拓展', 
+                            path: '/framework/react/module' 
+                        },
+                        { 
+                            title: '开发者工具的使用', 
+                            path: '/framework/react/devtool' 
+                        },
+                        { 
+                            title: 'React 函数式组件', 
+                            path: '/framework/react/funccomponent' 
+                        },
+                        { 
+                            title: '类组件及类的基本知识复习', 
+                            path: '/framework/react/classcomponent' 
+                        },
+                        { 
+                            title: 'React 状态 state', 
+                            path: '/framework/react/state' 
+                        },
+                        { 
+                            title: 'React props', 
+                            path: '/framework/react/props' 
+                        },
+                        { 
+                            title: 'React refs', 
+                            path: '/framework/react/refs' 
+                        },
+                        { 
+                            title: 'React 组件相关内容', 
+                            path: '/framework/react/component' 
+                        },
+                        { 
+                            title: '补充内容 - 高阶组件和函数柯里化', 
+                            path: '/framework/react/complexfunc' 
+                        },
+                        { 
+                            title: '组件的生命周期', 
+                            path: '/framework/react/life' 
+                        },
+                        { 
+                            title: 'React 的 Diff 算法', 
+                            path: '/framework/react/diff' 
+                        },
+                        { 
+                            title: 'React 脚手架', 
+                            path: '/framework/react/脚手架' 
+                        },
+                        { 
+                            title: 'React 组件传参', 
+                            path: '/framework/react/组件传参' 
+                        },
+                    ]
+                },
             ],
             '/else/': [
                 { 

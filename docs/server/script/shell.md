@@ -35,6 +35,8 @@ chmod +x ./test.sh  #使脚本具有执行权限
 ```
 <font color=red>注意: </font><font size=2>一定要写成 ./test.sh，而不是 test.sh，运行其它二进制的程序也一样，直接写 test.sh，linux 系统会去 PATH 里寻找有没有叫 test.sh 的，而只有 /bin, /sbin, /usr/bin，/usr/sbin 等在 PATH 里，你的当前目录通常不在 PATH 里，所以写成 test.sh 是会找不到命令的，要用 ./test.sh 告诉系统说，就在当前目录找。</font>
 
+<font color=red>注意: </font><font size=2>写一个 test.sh 文件, 在 mac 终端执行 ./test.sh, 这时候会提示没有权限，然后执行 vim ./test.sh, 这时候发现是可以查看的, 其实是没有赋予执行权限，这时候执行 chmod 777 ./test.sh 就可以了</font>
+
 2. 作为解释器参数
 直接运行解释器，其参数就是 shell 脚本的文件名，如：
 ``` shell
@@ -136,7 +138,7 @@ echo ${#string}   # 输出 4
 string="runoob is a great site"
 echo ${string:1:4} # 输出 unoo
 ```
-注意：第一个字符的索引值为 0。
+<font color=red>注意: </font>第一个字符的索引值为 0。
 
 #### 查找子字符串
 查找字符 i 或 o 的位置(哪个字母先出现就计算哪个)：
